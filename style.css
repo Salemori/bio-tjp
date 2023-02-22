@@ -4,10 +4,20 @@
     margin: 0px;
 
 }
-.home, .about, .i-am, .name, .about2{
+
+.home,
+.about,
+.i-am,
+.name,
+.about2 {
     font-family: 'Halant', serif;
 }
-.see-projects, .intro, .about-text, .hire-me2, .resume{
+
+.see-projects,
+.intro,
+.about-text,
+.hire-me2,
+.resume, .ref {
     font-family: 'Manrope', sans-serif;
 }
 
@@ -24,7 +34,10 @@ body {
 
 .nav-cover,
 .logo,
-.nav, .intro-cover, .about-cover, .buttons {
+.nav,
+.intro-cover,
+.about-cover,
+.buttons, .footer, .socials {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -34,14 +47,18 @@ body {
 .nav-cover {
     background: rgb(241, 245, 254);
     height: 40px;
-   
-  
+
+
     padding: 0px 60px;
 
 
 }
 
-.nav-cover, .intro-cover,.about-cover, .about-container{
+.nav-cover,
+.intro-cover,
+.about-cover,
+.about-container,
+.footer {
     width: 55rem;
 }
 
@@ -51,10 +68,11 @@ body {
     justify-content: space-between;
 }
 
-.logo img {
+.logo img, .logo2 img {
     width: 120px;
 
 }
+
 .home,
 .about,
 .hire-me {
@@ -69,9 +87,9 @@ body {
 
 
 .hire-me {
-    
+
     font-weight: 700;
-   
+
     text-align: center;
     padding-top: 6px;
     width: 55px;
@@ -79,89 +97,114 @@ body {
     border-radius: 5px;
 
 }
-.hire-me, .hire-me2, .resume, .see-projects{
+
+.hire-me,
+.hire-me2,
+.resume,
+.see-projects {
     font-size: 9px;
 }
-.hire-me a, .resume a{
+
+.hire-me a,
+.resume a {
     color: #155EEF;
 }
-a{
+
+a {
     text-decoration: none;
 }
-.intro-cover{
+
+.intro-cover {
     padding: 40px 70px 0px 70px;
- background: black ;
+    background: black;
 }
-.img-left img{
+
+.img-left img {
     width: 250px;
     margin: 0px;
 }
-.img-left{
-padding: 0px;
 
-height: 270px;
+.img-left {
+    padding: 0px;
+
+    height: 270px;
 }
-.content-left{
+
+.content-left {
     display: flex;
     flex-direction: column;
     gap: 5px;
-width: 23rem;
+    width: 23rem;
 }
-.i-am{
+
+.i-am {
     color: #B8B8B8;
     font-weight: 600;
 
 }
-.name, .see-projects a{
+
+.name,
+.see-projects a {
     font-weight: 600;
-  
+
 }
-.name{
+
+.name {
     font-size: 30px;
 }
-.intro{
-   color: #A3A3A3;
-font-weight: 500;
-font-size: 18px;
+
+.intro {
+    color: #A3A3A3;
+    font-weight: 500;
+    font-size: 18px;
 }
-.see-projects{
+
+.see-projects {
     background: #155EEF;
-font-weight: 700;
-font-size: 9px;
-width: 84px;
-text-align: center;
-padding: 6px;
-border: 1px solid #155EEF;
-border-radius: 5px;
-margin-top: 8px;
+    font-weight: 700;
+    font-size: 9px;
+    width: 84px;
+    text-align: center;
+    padding: 6px;
+    border: 1px solid #155EEF;
+    border-radius: 5px;
+    margin-top: 8px;
 }
-.about-cover{
+
+.about-cover {
     padding: 20px 70px 20px 70px;
     background: #F5F8FE;
     /* margin: 20px 0px; */
 }
-.img-right img{
+
+.img-right img {
     width: 280px;
 }
-.about2{
+
+.about2 {
     font-weight: 600;
     font-size: 19px;
 }
-.content-right{
+
+.content-right {
     width: 350px;
     /* background-color: yellowgreen; */
     letter-spacing: 1px;
     text-align: justify;
 
 }
-.about-text{
+
+.about-text {
     font-weight: 400;
     font-size: 14px;
 }
-.hire-me2, .resume{
+
+.hire-me2,
+.resume {
     font-weight: 700;
-} 
-.hire-me2{
+}
+
+.hire-me2 {
     background: #155EEF;
     font-size: 9px;
     width: 84px;
@@ -170,24 +213,42 @@ margin-top: 8px;
     border: 1px solid #155EEF;
     border-radius: 5px;
 }
-.resume{
+
+.resume {
     font-size: 9px;
-width: 96px;
-text-align: center;
-padding: 6px;
-border: 1px solid #155EEF;
-border-radius: 5px;
+    width: 96px;
+    text-align: center;
+    padding: 6px;
+    border: 1px solid #155EEF;
+    border-radius: 5px;
 }
-.hire-me2 a, .name, .see-projects a{
+
+.hire-me2 a,
+.name,
+.see-projects a, .ref {
     color: #FFFFFF;
 }
-.buttons{
+
+.buttons {
     width: 190px;
     margin-top: 30px;
 }
-
+.footer{
+    padding: 10px 70px 0px 70px;
+}
 
 /* .about-container{
     background: goldenrod;
     width: 100px;
 } */
+.socials{
+    width: 60px;
+}
+.socials img{
+    width: 10px;
+}
+.ref{
+    font-weight: 500;
+    font-size: 12px;
+    
+}

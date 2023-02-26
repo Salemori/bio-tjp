@@ -4,7 +4,6 @@
     margin: 0px;
 
 }
-
 .home,
 .about,
 .i-am,
@@ -12,7 +11,6 @@
 .about2 {
     font-family: 'Halant', serif;
 }
-
 .see-projects,
 .intro,
 .about-text,
@@ -20,145 +18,113 @@
 .resume, .ref {
     font-family: 'Manrope', sans-serif;
 }
-
-body {
+/* body {
     background: black;
-}
-
+} */
 .container {
-    padding: 60px 150px;
-    /* background-color: red; */
-    /* width: 50rem; */
-
+    background-color: black;
 }
-
 .nav-cover,
 .logo,
 .nav,
 .intro-cover,
 .about-cover,
-.buttons, .footer, .socials {
+.buttons, .footer, .socials{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* flex-direction: row; */
 }
-
 .nav-cover {
     background: rgb(241, 245, 254);
     height: 40px;
-
-
-    padding: 0px 60px;
-
-
+    padding: 0px 190px;
 }
-
-.nav-cover,
+/* .nav-cover,
 .intro-cover,
 .about-cover,
 .about-container,
 .footer {
     width: 55rem;
-}
-
-
+} */
 .nav {
-    width: 250px;
+    width: 300px;
     justify-content: space-between;
 }
-
 .logo img, .logo2 img {
     width: 120px;
 
 }
-
 .home,
 .about,
 .hire-me {
     padding: 4px;
 }
-
 .home,
 .about {
     font-weight: 500;
     font-size: 13.5px;
 }
-
-
 .hire-me {
-
     font-weight: 700;
-
     text-align: center;
     padding-top: 6px;
     width: 55px;
     border: 1px solid #155EEF;
     border-radius: 5px;
-
 }
-
 .hire-me,
 .hire-me2,
 .resume,
 .see-projects {
     font-size: 9px;
 }
-
 .hire-me a,
 .resume a {
     color: #155EEF;
 }
-
 a {
     text-decoration: none;
 }
-
 .intro-cover {
-    padding: 40px 70px 0px 70px;
+    padding: 70px 190px 0px 190px;
     background: black;
 }
-
 .img-left img {
     width: 250px;
     margin: 0px;
 }
-
 .img-left {
     padding: 0px;
 
     height: 270px;
 }
-
 .content-left {
     display: flex;
     flex-direction: column;
-    gap: 5px;
-    width: 23rem;
+    gap: 15px;
+    width: 29rem;
+   
 }
-
+/* .i-am, .name, .see-projects{
+    padding-bottom: 120px;
+} */
 .i-am {
     color: #B8B8B8;
     font-weight: 600;
-
+    font-size: 22px;
 }
-
 .name,
 .see-projects a {
     font-weight: 600;
-
 }
-
 .name {
-    font-size: 30px;
+    font-size: 32px;
 }
-
 .intro {
     color: #A3A3A3;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 20px;
 }
-
 .see-projects {
     background: #155EEF;
     font-weight: 700;
@@ -170,40 +136,38 @@ a {
     border-radius: 5px;
     margin-top: 8px;
 }
-
+.about-container{
+    background-color: #FFFFFF;
+    padding: 17.5px 0px;
+}
 .about-cover {
-    padding: 20px 70px 20px 70px;
+    padding: 17.5px 190px;
     background: #F5F8FE;
-    /* margin: 20px 0px; */
+ 
 }
 
 .img-right img {
     width: 280px;
 }
-
 .about2 {
     font-weight: 600;
-    font-size: 19px;
+    font-size: 21px;
+    padding-top: 10px;
 }
-
 .content-right {
-    width: 350px;
-    /* background-color: yellowgreen; */
+    width: 400px;
     letter-spacing: 1px;
     text-align: justify;
-
 }
-
 .about-text {
     font-weight: 400;
-    font-size: 14px;
+    font-size: 16px;
+    padding-top: 10px;
 }
-
 .hire-me2,
 .resume {
     font-weight: 700;
 }
-
 .hire-me2 {
     background: #155EEF;
     font-size: 9px;
@@ -213,7 +177,6 @@ a {
     border: 1px solid #155EEF;
     border-radius: 5px;
 }
-
 .resume {
     font-size: 9px;
     width: 96px;
@@ -222,25 +185,18 @@ a {
     border: 1px solid #155EEF;
     border-radius: 5px;
 }
-
 .hire-me2 a,
 .name,
 .see-projects a, .ref {
     color: #FFFFFF;
 }
-
 .buttons {
     width: 190px;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 .footer{
-    padding: 10px 70px 0px 70px;
+    padding: 7px 190px 3px 190px;
 }
-
-/* .about-container{
-    background: goldenrod;
-    width: 100px;
-} */
 .socials{
     width: 60px;
 }
@@ -250,5 +206,4 @@ a {
 .ref{
     font-weight: 500;
     font-size: 12px;
-    
 }

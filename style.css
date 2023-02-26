@@ -59,11 +59,17 @@
 .hire-me {
     padding: 4px;
 }
-.home,
-.about {
+.home a,
+.about a{
     font-weight: 500;
     font-size: 13.5px;
+    color: black
 }
+.about:hover, .home:hover{
+    border-bottom: 2px solid #155EEF;
+    
+}
+
 .hire-me {
     font-weight: 700;
     text-align: center;
